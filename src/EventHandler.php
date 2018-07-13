@@ -5,7 +5,7 @@ namespace SetBased\Abc\Event;
 /**
  * Interface for event handlers (a.k.a. listeners).
  */
-interface Handler
+interface EventHandler
 {
   //--------------------------------------------------------------------------------------------------------------------
   /**

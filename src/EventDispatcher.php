@@ -5,7 +5,7 @@ namespace SetBased\Abc\Event;
 /**
  * The event dispatcher.
  */
-interface Dispatcher
+interface EventDispatcher
 {
   //--------------------------------------------------------------------------------------------------------------------
   /**
