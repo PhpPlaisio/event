@@ -8,24 +8,11 @@
   "type": "library",
   "license": "MIT",
   "require": {
-    "php": ">=7.1.0",
-    "setbased/abc": "*",
-  },
-  "require-dev": {
-    "phing/phing": "^2.0.0",
-    "phpunit/phpunit": "^6.0.0"
+    "php": ">=7.1.0"
   },
   "autoload": {
     "psr-4": {
       "SetBased\\Abc\\Event\\": "src/"
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "SetBased\\Abc\\Event\\Test\\": "test/"
-    }
-  },
-  "config": {
-    "bin-dir": "bin/"
   }
 }
