@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace SetBased\Abc\Event;
+namespace Plaisio\Event;
 
 /**
  * The event dispatcher.
@@ -10,7 +10,7 @@ interface EventDispatcher
 {
   //--------------------------------------------------------------------------------------------------------------------
   /**
-   * Dispatches all queued events (as MAY be queued by notify()).
+   * Dispatches all queued events (as MAY be queued by notify() or modify()).
    */
   public function dispatch(): void;
 

@@ -1,18 +1,17 @@
 {
-  "name": "setbased/abc-event",
-  "description": "ABC-Framework: Events",
+  "name": "plaisio/event",
+  "description": "PhpPlaisio: Events",
   "keywords": [
-    "ABC-Framework",
-    "Event"
+    "PhpPlaisio",
+    "Events"
   ],
-  "type": "library",
   "license": "MIT",
   "require": {
     "php": ">=7.1.0"
   },
   "autoload": {
     "psr-4": {
-      "SetBased\\Abc\\Event\\": "src/"
+      "Plaisio\\Event\\": "src/"
     }
   }
 }
