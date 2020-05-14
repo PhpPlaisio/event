@@ -1,0 +1,9 @@
+<kernel>
+    <properties>
+        <property>
+            <type>\Plaisio\Event\EventDispatcher</type>
+            <name>eventDispatcher</name>
+            <description>The event dispatcher.</description>
+        </property>
+    </properties>
+</kernel>
