@@ -22,7 +22,7 @@ interface EventDispatcher
    *
    * @return object The event that was passed, now modified by callers.
    */
-  public function modify($event);
+  public function modify(object $event): object;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -35,7 +35,7 @@ interface EventDispatcher
    *
    * @return void
    */
-  public function notify($event): void;
+  public function notify(object $event): void;
 
   //--------------------------------------------------------------------------------------------------------------------
 }
